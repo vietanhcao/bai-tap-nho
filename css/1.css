@@ -4,6 +4,48 @@
     box-sizing: border-box;
 }
 
+.tintonghop {
+    background: white;
+    height: 459px;
+    margin-top: 33px;
+}
+
+.khoitonghop p {
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 240px;
+    font-size: 18px;
+    color: gray;
+}
+
+.khoitonghop {
+    display: flex;
+    margin-top: 20px;
+}
+
+.nendo span {
+    margin-left: 20px;
+}
+
+.nendo {
+    background: red;
+    color: white;
+    height: 46px;
+    padding: 9px;
+}
+
+.cot1phai {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anhtrentrai img {
+    width: 100%;
+}
+
+.anhtrentrai {margin-top: 60px;}
+
 
 
 i.zmdi.zmdi-rss, i.zmdi.zmdi-facebook,i.zmdi.zmdi-pinterest, i.zmdi.zmdi-email{
@@ -53,23 +95,25 @@ i.zmdi.zmdi-rss, i.zmdi.zmdi-facebook,i.zmdi.zmdi-pinterest, i.zmdi.zmdi-email{
 
 
 input[type="email"] {
-    height: 28px;
+    height: 34px;
 }
 
 .cot1 input[type="submit"] {
-    width: 55px;
-    height: 30px;
+    width: 64px;
+    height: 34px;
     color: white;
     border-radius: 1px;
-    background: red;
-    border-color: red;
+    background: #a12f35;
+    border-color: #a12f35;
     font-size: 15px;
-    margin-left: 109px;
 }
 
 .cot1 span {
     color: white;
     font-size: 13px;
+    margin-top: 9px;
+    transform: translateX(-48px);
+    font-style: italic;
 }
 
 textarea {
@@ -154,7 +198,7 @@ input[type="text"] {
     margin-bottom: 15px;
 }
 
-.nutraiphai i.fas.fa-angle-right {
+.quangcao i.fas.fa-angle-right {
     position: absolute;
     top: -5px;
     right: -29px;
@@ -164,7 +208,7 @@ input[type="text"] {
     padding: 6px;
 }
 
-.nutraiphai i.fas.fa-angle-left {
+.quangcao i.fas.fa-angle-left {
     position: absolute;
     top: -5px;
     left: -29px;
@@ -182,7 +226,7 @@ input[type="text"] {
 
 .doitac {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     position: relative;
 }
@@ -193,8 +237,9 @@ input[type="text"] {
     padding-top: 15px;
 }
 
-.nendo span {
+.tintonghop .nendo span {
     padding-left: 20px;
+    font-size: 26px;
 }
 
 .aosomi {
@@ -233,7 +278,8 @@ input[type="text"] {
     text-align: center;
     width: 332px;
     height: auto;
-    border: 0.5px solid #b19a9a;
+    border: 1px solid #d8d8d8;
+    background: white;
 }
 
 .ndanhtren p {
@@ -249,6 +295,14 @@ input[type="text"] {
     font-size: 22px;
     font-weight: normal;
     padding: 10px 0;
+}
+
+.ndanhtren.thoitrang h4 {
+    width: 139px;
+}
+
+.ndanhtren.congso h4 {
+    width: 178px;
 }
 
 .aosomi .ndanhtren {
@@ -376,11 +430,11 @@ i.fas.fa-bars {
     z-index: 2;
 }
 
-.banner {height: 526px;width: 100%;margin-bottom: 20px;}
+.banner {height: auto;width: 100%;margin-bottom: 20px;}
 
 .banner img {
     width: 100%;
-    position: absolute;
+    height: auto;
 }
 
 .menutop li {
