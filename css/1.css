@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+i.zmdi.zmdi-rss, i.zmdi.zmdi-facebook,i.zmdi.zmdi-pinterest, i.zmdi.zmdi-email{
+    border: 1px solid red;
+    background: red;
+    width: 29px;
+    text-align: center;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 23px;
+}
+
+.footerduoi {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 40px;
+    padding: 20px 0;
+    color: white;
+    font-family: tahoma;
+}
+
+
+
+.pro_img {
+    position: relative;
+}
+
+.pro_img a.ovlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background:  #0000007d url('../images/sechear.png') no-repeat center center;
+    transition: 1s all;
+    opacity: 0;
+}
+.pro_img:hover a.ovlay {
+    opacity: 1;
+
+
+}
+
+
+
+
+input[type="email"] {
+    height: 28px;
+}
+
+.cot1 input[type="submit"] {
+    width: 55px;
+    height: 30px;
+    color: white;
+    border-radius: 1px;
+    background: red;
+    border-color: red;
+    font-size: 15px;
+    margin-left: 109px;
+}
+
+.cot1 span {
+    color: white;
+    font-size: 13px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    height: 109px;
+}
+
+.cot1 input[type="text"] {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.cot1 li {
+    padding: 10px 0;
+}
+
+.cot1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: tahoma;
+}
+
+.cot1 {
+    width: 25%;
+}
+
+.footertren {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.cot1 ul {
+    list-style: none;
+}
+
+footer {
+    background: #2a2d34;
+    padding: 20px;
+}
+
+footer {}
+
+.formtimkiem a {
+    text-decoration: none;
+    color: white;
+    padding-left: 7px;
+    font-size: 14px;
+}
+
+.formtimkiem {
+    width: 325px;
+    background: #a12f35;
+    margin-top: -4px;
+}
+
+.timkiemnho {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    font-family: tahoma;
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 240px;
+}
+
+.timkiem {
+    background: #871e23;
+    height: 60px;
+    padding-top: 21px;
+}
+
+.text {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.nutraiphai i.fas.fa-angle-right {
+    position: absolute;
+    top: -5px;
+    right: -29px;
+    background: #871e23;
+    color: white;
+    font-size: 24px;
+    padding: 6px;
+}
+
+.nutraiphai i.fas.fa-angle-left {
+    position: absolute;
+    top: -5px;
+    left: -29px;
+    background: #871e23;
+    color: white;
+    font-size: 24px;
+    padding: 6px;
+}
+
+.nutraiphai {
+}
+
+.motkhoinho {
+}
+
+.doitac {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.quangcao {
+    background: white;
+    height: 52px;
+    padding-top: 15px;
+}
+
+.nendo span {
+    padding-left: 20px;
+}
+
+.aosomi {
+    margin-bottom: 20px;
+}
+
+.aosomi a {
+    text-decoration: none;
+    width: 114px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+    background: #871e23;
+    color: white;
+    margin-top: -11px;
+}
+
+._1anh p {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+._1anh img {
+    width: 100%;
+}
+
+.cacanh {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 691px;
+    align-items: baseline;
+}
+
+._1anh {
+    text-align: center;
+    width: 332px;
+    height: auto;
+    border: 0.5px solid #b19a9a;
+}
+
+.ndanhtren p {
+    padding: 0;
+    margin-bottom: 23px;
+    font-size: 19px;
+}
+
+.aosomi h4 {
+    margin: 5px auto;
+    width: 87px;
+    border-bottom: 1px solid #871e23;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 10px 0;
+}
+
+.aosomi .ndanhtren {
+}
+
+.ndtrenphai a {
+    text-decoration: none;
+    color: #b4282f;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 19px;
+}
+
+.ndtrenphai span {
+    color: #b4282f;
+    padding: 0;
+}
+
+.ndtrenphai p {
+    font-size: 14px;
+    line-height: 29px;
+    font-family: 'Myriad Pro';
+}
+
+.trentrai {
+    margin-right: 48px;
+}
+
+.ndtrenphai {}
+
+.phai {
+    width: 75%;
+    padding-left: 31px;
+}
+
+
+
+.menutren {
+    padding: 10px;
+    display: flex;
+    background: white;
+    margin-bottom: 20px;
+}
+
+main {
+    background: #f6f6f6;
+}
+
+.ndanhtren span {
+    padding-left: 0;
+    color: red;
+}
+
+li.nendo {
+    background: #871e23;
+}
+
+ul {}
+
+.dmsanpham li {
+    padding: 10px;
+}
+
+.dmsanpham {
+    width: 100%;
+}
+
+.trai {
+    width: 25%;
+}
+
+.dmsanpham ul {
+    list-style: none;
+    background: red;
+    color: white;
+    font-size: 24px;
+    background: #2a2d34;
+}
+
+.dmsanpham ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+i.fas.fa-bars {
+    font-size: 31px;
+}
+
+.dnsanpham ul {
+    list-style: none;
+}
+
+.ndbanner a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    font-size: 16px;
+    border: 1px solid #871e23;
+    padding: 10px 24px;
+    background: #871e23;
+}
+
+.banner p {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Myriad Pro';
+    margin-bottom: 40px;
+}
+
+.ndbanner h3 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    line-height: 50px;
+    margin-bottom: 43px;
+}
+
+.ndbanner {
+    position: absolute;
+    height: auto;
+    transform: translateX(32%);
+    top: 29%;
+    z-index: 2;
+}
+
+.banner {height: 526px;width: 100%;margin-bottom: 20px;}
+
+.banner img {
+    width: 100%;
+    position: absolute;
+}
+
+.menutop li {
+    padding: 17px 12px;
+    text-transform: uppercase;
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+.menutop li:hover {
+    background: #871e23;
+}
+
+.menutop a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 57px;
+    background: #2a2d34;
+    border-bottom: 4px solid #871e23;
+}
+
+ul.menutop {
+    display: flex;
+    list-style: none;
+    height: 53px;
+}
+
+.icontop {
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+
+.logo p {
+    padding-top: 9px;
+    text-transform: uppercase;
+}
+
+.logo img {
+    margin-right: 17px;
+}
+
+.icon {
+    text-align: center;
+    padding: 12px 27px;
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+/*  scroll top */
+nav.fixtop {position: fixed;top: 0;left: 0;z-index: 99;border: none;height: 53px;}
+
+
