@@ -19,3 +19,17 @@ function cuon() {
 	}
 
 }
+let aosomi = document.querySelectorAll('.aosomi');
+
+
+window.addEventListener('scroll', hienlen);
+
+	function hienlen(){
+		for(var i = 0; i < aosomi.length; i++){
+	let vitris3 = aosomi[i].offsetTop;
+	console.log(vitris3);
+	if (window.pageYOffset > vitris3-500 ){
+		aosomi[i].classList.add('dilen');
+	}
+}
+}

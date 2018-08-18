@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #f6f6f6;
+}
 .tintonghop {
     background: white;
     height: 459px;
@@ -26,13 +28,15 @@
 
 .nendo span {
     margin-left: 20px;
+    display: inline-block;
 }
 
 .nendo {
-    background: red;
+    background: #871e23;
     color: white;
     height: 46px;
     padding: 9px;
+    font-family: tahoma;
 }
 
 .cot1phai {
@@ -56,6 +60,7 @@ i.zmdi.zmdi-rss, i.zmdi.zmdi-facebook,i.zmdi.zmdi-pinterest, i.zmdi.zmdi-email{
     height: 28px;
     border-radius: 50%;
     font-size: 23px;
+    color: white;
 }
 
 .footerduoi {
@@ -81,7 +86,7 @@ i.zmdi.zmdi-rss, i.zmdi.zmdi-facebook,i.zmdi.zmdi-pinterest, i.zmdi.zmdi-email{
     top: 0;
     left: 0;
     margin: 0;
-    background:  #0000007d url('../images/sechear.png') no-repeat center center;
+    background: #0000007d url('../images/sechear.png') no-repeat center center !important;
     transition: 1s all;
     opacity: 0;
 }
@@ -106,6 +111,7 @@ input[type="email"] {
     background: #a12f35;
     border-color: #a12f35;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .cot1 span {
@@ -206,6 +212,7 @@ input[type="text"] {
     color: white;
     font-size: 24px;
     padding: 6px;
+    cursor: pointer;
 }
 
 .quangcao i.fas.fa-angle-left {
@@ -216,6 +223,7 @@ input[type="text"] {
     color: white;
     font-size: 24px;
     padding: 6px;
+    cursor: pointer;
 }
 
 .nutraiphai {
@@ -238,12 +246,17 @@ input[type="text"] {
 }
 
 .tintonghop .nendo span {
-    padding-left: 20px;
+    padding-left: 0px;
     font-size: 26px;
 }
 
 .aosomi {
     margin-bottom: 20px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.aosomi.ao1 {
 }
 
 .aosomi a {
@@ -252,10 +265,13 @@ input[type="text"] {
     margin: 0 auto;
     display: block;
     padding: 10px 20px;
-    background: #871e23;
-    color: white;
+    color: #333333;
+    background: white;
     margin-top: -11px;
+    border: 1px solid #d7d7d7;
 }
+
+.aosomi a:hover {background: #871e23;color: white;}
 
 ._1anh p {
     padding: 10px 0;
@@ -508,7 +524,24 @@ header {
     width: 100%;
     display: flex;
 }
+/* responsive */
+
+
 /*  scroll top */
 nav.fixtop {position: fixed;top: 0;left: 0;z-index: 99;border: none;height: 53px;}
+/* scroll di len */
 
+.dilen {
+    animation: dilen1 1s forwards;
+}
+@-webkit-keyframes dilen1 {
+    from {
+        transform: translateY(300px);
+        
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
