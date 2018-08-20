@@ -286,13 +286,13 @@ input[type="text"] {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 691px;
+    height: 700px;
     align-items: baseline;
 }
 
 ._1anh {
     text-align: center;
-    width: 332px;
+    width: 27%;
     height: auto;
     border: 1px solid #d8d8d8;
     background: white;
